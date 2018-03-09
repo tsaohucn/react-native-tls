@@ -1,0 +1,27 @@
+{
+  "name": "react-native-tls",
+  "version": "0.0.1",
+  "description": "SSL/TLS implementation for react-native. Built on top of react-native-tcp, Compatible with Node's TLS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcauchy/react-native-tls.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "TLS",
+    "SSL",
+    "TCP",
+    "react-native"
+  ],
+  "author": "Karl Cauchy <karl@cauchies.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kcauchy/react-native-tls/issues"
+  },
+  "homepage": "https://github.com/kcauchy/react-native-tls#readme"
+}
