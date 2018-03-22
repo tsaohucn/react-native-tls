@@ -2,9 +2,10 @@
   "name": "react-native-tls",
   "version": "0.0.1",
   "description": "SSL/TLS implementation for react-native. Built on top of react-native-tcp, Compatible with Node's TLS API",
-  "main": "index.js",
+  "main": "TcpSockets.js",
   "scripts": {
-    "test": "jest "
+    "test": "jest ",
+    "start": "exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,20 @@
   "bugs": {
     "url": "https://github.com/kcauchy/react-native-tls/issues"
   },
-  "homepage": "https://github.com/kcauchy/react-native-tls#readme"
+  "homepage": "https://github.com/kcauchy/react-native-tls#readme",
+  "dependencies": {
+    "base64-js": "0.0.8",
+    "buffer": "^5.0.0",
+    "events": "^1.0.2",
+    "ip-regex": "^1.0.3",
+    "process": "^0.11.9",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint-plugin-react": "^3.11.3"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  },
 }
