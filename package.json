@@ -1,6 +1,6 @@
 {
   "name": "react-native-tls",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SSL/TLS implementation for react-native. Built on top of react-native-tcp, Compatible with Node's TLS API",
   "main": "TcpSockets.js",
   "scripts": {
